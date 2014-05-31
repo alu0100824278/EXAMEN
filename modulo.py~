@@ -31,8 +31,3 @@ def suma(p1,p2):
     print 'p2 = ' , p2
     print 'p1 + p2 = ' , p3
     
-  g3 = len(p3)
-  x = Symbol('x')
-  for i in range (g3):
-    print ('%dx^%d + ' % (p3[i], i)).rstrip('\n')
-    

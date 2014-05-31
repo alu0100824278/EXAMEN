@@ -1,8 +1,6 @@
 #!/usr/bin/python
 #! encoding: UTF-8
 
-from sympy import *
-
 def suma(p1,p2):
   g1 = len(p1)
   g2 = len(p2)
