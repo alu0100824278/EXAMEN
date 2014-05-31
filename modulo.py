@@ -1,7 +1,6 @@
 #!/usr/bin/python
 #! encoding: UTF-8
 
-import math
 from sympy import *
 
 def suma(p1,p2):

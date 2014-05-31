@@ -1,7 +1,6 @@
 #!/usr/bin/python
 #! encoding: UTF-8
 
-import math
 from sympy import *
 
 def suma(p1,p2):
@@ -16,8 +15,8 @@ def suma(p1,p2):
     for j in range (g2, g1):
       p3[j] = p3[j] + p1[j]  
       
-    print p1
-    print p2
+    print 'p1 = ' , p1
+    print 'p2 = ' , p2
     print 'p1 + p2 = ' , p3
     
   else:
@@ -31,4 +30,9 @@ def suma(p1,p2):
     print 'p1 = ' , p1
     print 'p2 = ' , p2
     print 'p1 + p2 = ' , p3
+    
+  g3 = len(p3)
+  x = Symbol('x')
+  for i in range (g3):
+    print ('%dx^%d + ' % (p3[i], i)).rstrip('\n')
     
